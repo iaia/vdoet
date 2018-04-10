@@ -1,0 +1,30 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.boxes {
+}
+
+table.boxes {
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.boxes tr {
+    height: 42px;
+}
+
+.boxes td {
+    width: 42px;
+    height: 42px;
+    border: dashed 2px #DDDDDD;
+    padding: 0;
+}
+
+box {
+    display: block;
+    height: 100%;
+}

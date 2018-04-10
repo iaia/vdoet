@@ -1,0 +1,11 @@
+<div class="boxes">
+  <table class="boxes">
+    <tr *ngFor="let row of boxes">
+      <td *ngFor="let column of row;">
+        <box
+         [box]="column"
+         ></box>
+      </td>
+    </tr>
+  </table>
+</div>
